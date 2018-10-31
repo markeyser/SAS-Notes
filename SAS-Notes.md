@@ -24,12 +24,13 @@ proc sql;
 quit;
 ``` 
 ### Listing variables using `PROC CONTENTS`
-Listing variables
-```proc contents data=agt_goe_v02 varnum nodetails;
+Listing the variables. The 	`varnum` and `nodetails`
+```
+proc contents data=agt_goe_v02 varnum nodetails;
 run;
 ```
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjAyMDc5MjkxLDE4NDU2NDc2NjksLTE4Nj
-QyODExOSwxMTg2NTE1Mzg3LC0xNDQwNjAwOTU5XX0=
+eyJoaXN0b3J5IjpbLTEzNTEyNzI5ODAsMTg0NTY0NzY2OSwtMT
+g2NDI4MTE5LDExODY1MTUzODcsLTE0NDA2MDA5NTldfQ==
 -->
