@@ -17,7 +17,7 @@ run;
 ````
 proc sql;
 	create table work.agent_type_02 
-	as select a.*, b.fyc_20&prior as prior_fyc
+	as select a.*, b.fyc_prior as prior_fyc
 	from work.agent_type_01 a 
 	left join lise.marcos_agt_lic b 
 	on a.agt_num=b.mk_id;  
@@ -25,6 +25,6 @@ quit;
 ```` 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NjQyODExOSwxMTg2NTE1Mzg3LC0xND
-QwNjAwOTU5XX0=
+eyJoaXN0b3J5IjpbMTg0NTY0NzY2OSwtMTg2NDI4MTE5LDExOD
+Y1MTUzODcsLTE0NDA2MDA5NTldfQ==
 -->
