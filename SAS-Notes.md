@@ -29,9 +29,9 @@ Listing the variables. The 	`varnum` and `nodetails`
 proc contents data=agt_goe_v02 varnum nodetails;
 run;
 ```
-dfdsf
+dfdsfdffsad
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk3ODEyODQwMywtMTM1MTI3Mjk4MCwxOD
-Q1NjQ3NjY5LC0xODY0MjgxMTksMTE4NjUxNTM4NywtMTQ0MDYw
-MDk1OV19
+eyJoaXN0b3J5IjpbLTE4NDA0OTc4MjMsLTEzNTEyNzI5ODAsMT
+g0NTY0NzY2OSwtMTg2NDI4MTE5LDExODY1MTUzODcsLTE0NDA2
+MDA5NTldfQ==
 -->
